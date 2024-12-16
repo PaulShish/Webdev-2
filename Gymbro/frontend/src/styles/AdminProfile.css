@@ -1,0 +1,90 @@
+.admin-profile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  background-color: #f4f4f4;
+  width: 100%;
+}
+
+.admin-profile h1 {
+  font-size: 28px;
+  color: #3b3b78;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.admin-profile-container {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  align-items: flex-start;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+.password-section {
+  flex: 1;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  max-width: 500px;
+}
+
+.password-section h2 {
+  font-size: 20px;
+  margin-bottom: 20px;
+  color: #3b3b78;
+  font-weight: bold;
+}
+
+.password-section form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.password-section label {
+  font-weight: bold;
+  color: #3b3b78;
+}
+
+.password-section input {
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  font-size: 16px;
+}
+
+.password-section input:focus {
+  outline: none;
+  border-color: #3b3b78;
+  box-shadow: 0 0 4px rgba(59, 59, 120, 0.5);
+}
+
+.password-section button {
+  background-color: #3b3b78;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.password-section button:hover {
+  background-color: #5757a6;
+}
+
+button.cancel {
+  background-color: white;
+  color: #3b3b78;
+  border: 1px solid #3b3b78;
+}
+
+button.cancel:hover {
+  background-color: #f4f4f4;
+}
