@@ -1,0 +1,112 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f4f4f4;
+}
+
+.container {
+  display: flex;
+  width: 80%;
+  max-width: 1000px;
+  background: #ece9e9; 
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+.login-form {
+  flex: 1;
+  padding: 40px;
+}
+
+.login-form h1 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.login-form label {
+  display: block;
+  font-size: 14px;
+  margin-bottom: 8px;
+  color: #555;
+}
+
+.login-form input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.options {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 14px;
+}
+
+.options a {
+  color: #2b2b72;
+  text-decoration: none;
+}
+
+.btn {
+  width: 100%;
+  padding: 12px;
+  background-color: #2b2b72;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #252562;
+}
+
+p {
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+p a {
+  color: #2b2b72;
+  text-decoration: underline;
+}
+
+.logo-section {
+  flex: 1;
+  background: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+}
+
+.logo-section img {
+  max-width: 150px;
+  margin-bottom: 20px;
+}
+
+.logo-section h1 {
+  font-size: 28px;
+  margin: 0;
+  color: #333;
+}
+
+.logo-section p {
+  color: #d34d4d;
+  font-size: 14px;
+}
+@media (min-width: 768px) {
+  .container {
+    flex-direction: row;
+  }
+}
