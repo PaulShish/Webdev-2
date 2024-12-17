@@ -18,10 +18,12 @@ body {
   max-width: 500px;
 }
 
+
 .register-form h1 {
   color: #333;
   margin-bottom: 20px;
 }
+
 
 .register-form input {
   width: 100%;
