@@ -11,6 +11,7 @@ import Register from './components/Register';
 import ProtectedRoute from './components/ProtectedRoute'; 
 import './index.css'; 
 
+
 const App = () => {
   const [members, setMembers] = useState([]);
   const [isAuthenticated, setIsAuthenticated] = useState(false); 
