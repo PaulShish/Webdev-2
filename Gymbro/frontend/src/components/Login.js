@@ -12,6 +12,7 @@ const Login = ({ setIsAuthenticated }) => {
 
         const user = { email, password };
 
+        
         try {
             const response = await fetch('http://localhost:5000/login', {
                 method: 'POST',
@@ -21,6 +22,7 @@ const Login = ({ setIsAuthenticated }) => {
                 body: JSON.stringify(user),
             });
 
+            
             if (response.ok) {
                 const data = await response.json();
                 localStorage.setItem('token', data.token);
