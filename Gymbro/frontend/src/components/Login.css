@@ -8,14 +8,7 @@ body {
   background-color: #f4f4f4;
 }
 
-.container {
-  display: flex;
-  width: 80%;
-  max-width: 1000px;
-  background: #ece9e9; 
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-  border-radius: 10px;
-}
+
 
 .login-form {
   flex: 1;
