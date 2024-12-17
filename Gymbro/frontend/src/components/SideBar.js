@@ -11,6 +11,7 @@ const Sidebar = () => {
       <p>Admin</p>
       </div>
 
+      
       <ul className="sidebar-links">
         <li>
           <NavLink to="/dashboard" exact activeClassName="active-link">
@@ -39,6 +40,7 @@ const Sidebar = () => {
         </li>
       </ul>
 
+      
     </div>
   );
 };
